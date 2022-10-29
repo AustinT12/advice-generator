@@ -31,7 +31,7 @@ function App() {
       </picture>
 
       <div>
-        <button>
+        <button onClick={fetchAdvice}>
           <img src={dice} alt='' />
         </button>
       </div>
